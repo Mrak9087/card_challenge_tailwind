@@ -26,6 +26,10 @@ code {
   @apply bg-no-repeat bg-cover max-w-[285px] sm:max-w-md w-full px-8 flex rounded-xl h-[154px] sm:h-[245px];
 }
 
+.formInput {
+  @apply focus:outline-none invalid:border-pink-500 focus:border-indigo-600 border sm:text-sm sm:font-bold rounded-md py-3 px-4 sm:placeholder:font-normal;
+}
+
 svg{
   display: flex;
   align-items: center;
