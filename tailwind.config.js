@@ -14,6 +14,9 @@ module.exports = {
       },
       screens: {
         xl: '1440px',
+      },
+      backgroundSize:{
+        'my':'80% 100%'
       }
     },
   },
