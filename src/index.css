@@ -21,3 +21,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card {
+  @apply bg-no-repeat bg-cover max-w-[285px] sm:max-w-md w-full px-8 flex rounded-xl h-[154px] sm:h-[245px];
+}
+
+svg{
+  display: flex;
+  align-items: center;
+}
